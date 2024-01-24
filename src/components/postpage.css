@@ -1,0 +1,45 @@
+.posts_background_color {
+  background-color: lightgray;
+}
+.posts_background_color h2 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: monserrat;
+}
+.posts_background_color p {
+  padding-bottom: 20px;
+  font-family: ubuntu;
+}
+.posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.show_more_btn {
+  background-color: rgb(56, 54, 54);
+  color: White;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+.show_more_btn:hover {
+  background-color: rgb(86, 85, 85);
+}
+.show_less_btn {
+  background-color: rgb(56, 54, 54);
+  color: White;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+.show_less_btn:hover {
+  background-color: rgb(86, 85, 85);
+}

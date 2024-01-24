@@ -1,0 +1,26 @@
+.home_logo {
+  width: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.table_of_posts h4 {
+  font-weight: 200;
+  margin-top: -10px;
+}
+.post {
+  padding: 10px;
+  border: 1px solid rgb(162, 162, 162);
+  cursor: pointer;
+}
+.post:hover {
+  background-color: rgb(240, 237, 237);
+}
+.post p {
+  font-size: 10px;
+}
+.post h4 {
+  margin-top: -10px;
+}
+.post h6 {
+  text-transform: uppercase;
+}

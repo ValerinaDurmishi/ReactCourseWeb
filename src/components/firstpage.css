@@ -1,0 +1,96 @@
+.first_page_why_us_info {
+  margin-top: 80px;
+}
+.why_us_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why_us_header h5 {
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 120px;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.why_us_header h2 {
+  text-transform: uppercase;
+  display: flex;
+  text-align: left;
+  margin-left: 120px;
+  font-size: 30px;
+  width: 400px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin-top: 10px;
+}
+.why_us_paragraph p {
+  display: flex;
+  text-align: left;
+  justify-content: right;
+  width: 500px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+.why_us_paragraph a {
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+.why_us_paragraph a:hover:after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  top: 20px;
+  left: 0px;
+  background-color: black;
+}
+.first_page_interior_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_page_interior_image img {
+  border-radius: 50px;
+  max-width: 80%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+@media (max-width: 1000px) {
+  .why_us_content {
+    display: block;
+  }
+  .why_us_header h2 {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-top: 10px;
+  }
+  .why_us_header h5 {
+    margin-left: 50px;
+  }
+  .why_us_paragraph p {
+    font-family: ubuntu;
+    margin-left: 50px;
+    margin-left: 50px;
+    width: 300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+  .why_us_paragraph a {
+    margin-left: 50px;
+  }
+}

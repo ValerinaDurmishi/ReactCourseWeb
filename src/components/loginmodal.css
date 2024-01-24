@@ -1,0 +1,14 @@
+.modal-login-button {
+  background-color: rgb(56, 54, 54);
+  color: white;
+  padding: 10px 25px 7px 25px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+.modal-login-button:hover {
+  background-color: rgb(105, 102, 102);
+  transition: all 0.3s ease;
+}

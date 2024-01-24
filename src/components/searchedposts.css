@@ -1,0 +1,10 @@
+.searched_posts {
+  margin-left: 130px;
+  background-color: white;
+  width: 60%;
+  height: auto;
+}
+.searched_posts p {
+  font-size: 10px;
+  font-weight: bold;
+}
